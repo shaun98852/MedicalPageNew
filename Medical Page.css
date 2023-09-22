@@ -1,0 +1,893 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+
+
+.background {
+    min-height: 100vh;
+    /* padding-bottom: 20px; */
+}
+
+/*  Header Section */
+.header {
+
+    width: 360px;
+    height: 81px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+@media screen and (min-width:768px) {
+    .header {
+        display: none;
+    }
+}
+
+.imageSize {
+    width: 200px;
+    height: 40px;
+
+}
+
+.iconSize {
+    font-size: 30px;
+}
+
+.headers {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .headers {
+        display: block;
+    }
+}
+
+.sizeImage {
+    width: 170px;
+    height: 70px;
+}
+
+
+.middleSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-right: -20px;
+
+}
+
+.para {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 450;
+    margin-right: 8px;
+}
+
+
+
+.Test {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 450;
+    margin-right: 10px;
+    font-weight: bold;
+    color:
+        #138ED1;
+}
+
+@media screen and (min-width:850px) {
+    .para {
+        flex-grow: 1;
+    }
+
+    .Test {
+        flex-grow: 1;
+    }
+}
+
+.thirdSection {
+    display: flex;
+
+}
+
+.button1 {
+    background-color: #00486C;
+    color: #ffffff;
+    font-family: Roboto;
+    border-radius: 5px;
+    font-weight: bold;
+    border-style: none;
+    height: 40px;
+    margin: 10px;
+    font-size: 12px;
+    flex-grow: 1;
+
+}
+
+.buttons {
+    background-color: #00486C;
+    color: #ffffff;
+    font-family: Roboto;
+    border-radius: 5px;
+    font-weight: bold;
+    border-style: none;
+    height: 40px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    flex-grow: 1;
+}
+
+.storeButton {
+    font-family: roboto;
+    color: #ffffff;
+}
+
+.texts {
+    font-size: 12px;
+    margin-top: 7%;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+.rowClass {
+
+    height: 90px;
+}
+
+/* Entry Box */
+
+.boxes {
+
+    /*  margin-bottom:100px; */
+}
+
+.smallBox {
+
+    background-image: linear-gradient(to right, #A0DEFF, #ffffff);
+    min-height: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.heading {
+    font-family: roboto;
+    color: #138ED1;
+    text-align: center;
+    font-size: 25px;
+}
+
+.labText {
+    color: #333333;
+}
+
+.belowText {
+    background-color: #00486C;
+    border-radius: 20px;
+    color: #ffffff;
+    border-style: none;
+    width: 90%;
+    margin: auto;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.boxHeading {
+    font-family: roboto;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+.textBelow {
+    background-color: #00A6FF;
+    border-radius: 20px;
+    color: #ffffff;
+    border-style: none;
+    width: 90%;
+    margin: auto;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+
+.firstCost {
+    text-decoration: line-through;
+}
+
+.secondCost {
+    margin: 10px;
+}
+
+.enterDetailsBox {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-style: none;
+    width: 80%;
+    margin: auto;
+    min-height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 13px;
+    margin-top: 30px;
+}
+
+.boxDetails {
+    font-family: Roboto;
+    text-align: center;
+    font-size: 16px;
+    color: #2F2F2F;
+}
+
+.detailSection {
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+    margin-bottom: 20px;
+
+}
+
+.iconsStyle {
+    color: #00A6FF;
+    font-size: 23px;
+    margin-right: 7px;
+
+}
+
+.inputBox {
+    border-style: none;
+    border-radius: 7px;
+    background-color: #E3E3E3;
+    color: #6E6E6E;
+    height: 35px;
+    padding-left: 10px;
+    width: 90%;
+}
+
+.checkboxs {
+    display: flex;
+    align-items: center;
+    margin-top: -6px;
+    margin-left: 2%;
+    /* background-color:blue; */
+}
+
+.checkBox {
+    height: 10px;
+    margin-right: 5px;
+    margin-top: -4%;
+}
+
+.checkboxText {
+    font-family: Roboto;
+    font-size: 6px;
+    display: inline;
+}
+
+@media screen and (min-width:468px) {
+    .checkboxText {
+        font-size: 10px;
+    }
+}
+
+.requiredButton {
+    text-align: center;
+}
+
+.button {
+
+    border-style: none;
+    border-radius: 7px;
+    color: #ffffff;
+    font-style: Roboto;
+    background-color: #138ED1;
+    width: 70%;
+    height: 35px;
+}
+
+.textBox {
+    display: flex;
+}
+
+.boxLeft {
+    display: block;
+
+}
+
+.largeSize {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .largeSize {
+        display: flex;
+        margin-bottom: 100px;
+        background-image: linear-gradient(#D6F1FF, #ffffff);
+    }
+}
+
+
+.leftSide {
+    width: 50%;
+}
+
+.rightSide {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.doctorImage {
+
+    height: 270px;
+}
+
+.downText {
+    background-color:
+        #00486C;
+    border-radius: 20px;
+    color: #ffffff;
+    border-style: none;
+    margin: auto;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+    width: 70%;
+    margin-top: 20px;
+
+}
+
+.headingBox {
+    font-family: roboto;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 2%;
+
+}
+
+.textRightDown {
+    background-color: #00A6FF;
+    border-radius: 20px;
+    color: #ffffff;
+    border-style: none;
+    /* width: 90%; */
+    margin: auto;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+    width: 20%;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+.boldType {
+    text-decoration: line-through;
+}
+
+
+/* Some TExt */
+.writtenText {
+
+    /* margin-bottom:20px; */
+}
+
+.objects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .writtenText {
+        display: flex;
+        justify-content: center;
+    }
+
+    .objects {
+        margin-right: 10px;
+    }
+}
+
+.nablImage {
+
+    height: 40px;
+    margin-right: 10px;
+}
+
+.nablImage1 {
+    height: 60px;
+    /* margin-right: 10px; */
+}
+
+.nablText {
+    font-family: Roboto;
+    font-weight: 500;
+    margin-top: 2%;
+
+
+}
+
+
+/* Expanding Text */
+
+.headings {
+    font-family: roboto;
+    color: #333333;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+
+.labTexts {
+    color: #138ED1;
+
+}
+
+/* Boxes */
+
+.boxSection {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.typeBoxes {
+    background-color: #138ED1;
+    width: 120px;
+    border-radius: 10px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin: 10px;
+    padding-top: 3%;
+}
+
+@media screen and (max-width:600px) {
+    .typeBoxes {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .typeBoxes {
+        width: 200px;
+    }
+}
+
+.firstTexts {
+    font-size: 20px;
+}
+
+.secondTexts {}
+
+.paragraphText {
+    font-family: Roboto;
+    font-weight: 450;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    color: #6E6E6E;
+}
+
+.headings1 {
+    font-family: roboto;
+    color: #333333;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/*   Information Boxes */
+
+.boxSection {
+    margin-bottom: 50px;
+}
+
+
+.infoBoxes {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.firstInfoBox {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    font-family: Roboto;
+    padding-left: 5%;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .infoBoxes {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .firstInfoBox {
+        width: 30%;
+        padding-left: 1%;
+    }
+}
+
+.infoText {
+    font-size: 19px;
+
+
+}
+
+.ratingSection {
+    display: flex;
+    /* align-items:center; */
+    margin-bottom: -10px;
+}
+
+.ratingText {
+    font-size: 14px;
+
+}
+
+.starClass {
+    font-size: 15px;
+    color: yellow;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.reviewSection {
+    font-size: 14px;
+
+}
+
+.noOfTests {
+    Font-family: Roboto;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.prices {}
+
+.specialPrice {
+    text-decoration: line-through;
+    color: #6E6E6E;
+    margin-right: 10px;
+}
+
+.bookNowButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #008DD9;
+    color: #ffffff;
+    width: 80%;
+    height: 40px;
+    margin: auto;
+}
+
+/* small Click Options */
+
+.clickOptions {
+    margin-top: 70px;
+}
+
+@media screen and (min-width:768px) {
+    .clickOptions {
+        display: none;
+    }
+}
+
+.objects1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.nablText1 {
+    font-family: Roboto;
+    font-weight: 500;
+    margin-top: 5%;
+    margin-right: 5px;
+}
+
+
+
+.doctorImageBox {
+    padding-right: 20px;
+    text-align: right;
+}
+
+@media screen and (min-width:768px) {
+    .doctorImageBox {
+        display: none;
+    }
+}
+
+/* Large Click Options */
+
+.detailsBox {
+    display: none;
+}
+
+
+@media screen and (min-width:768px) {
+    .detailsBox {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: #D6F1FF;
+        height: 800px;
+    }
+}
+
+.frontSections {
+    width: 20%;
+    align-self: flex-start;
+}
+
+.frontSections1 {
+    width: 20%;
+    align-self: flex-end;
+}
+
+.imageDetailing {
+    position: relative;
+    top: 50px;
+    right: -120px;
+    height: 100px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.insideDetailBox {
+    width: 200px;
+    /* width:100%; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+@media screen and (min-width:865px) {
+    .insideDetailBox {
+        width: 300px;
+    }
+
+    .imageDetailing {
+        right: -230px;
+    }
+
+}
+
+.insideHeading {
+    font-family: Roboto;
+    font-size: 24px;
+    width: 80%;
+}
+
+.detailPara {
+    font-weight: 450;
+    font-family: Roboto;
+    width: 80%;
+}
+
+.rightImageDetails {
+    /* height:100%; */
+    height: 250px;
+}
+
+.thridBox {
+    align-self: flex-end;
+
+}
+
+/* Footer */
+
+.FooterContainer {
+    background-color: #1F1F1F;
+    padding: 10px;
+}
+
+@media screen and (min-width:768px) {
+    .bottomSections {
+        display: flex;
+        padding: 10px;
+    }
+}
+
+.topTextSection {}
+
+@media screen and (min-width:768px) {
+    .topTextSection {
+        width: 40%;
+    }
+}
+
+.logoLastImage {
+    height: 30px;
+}
+
+.paragraphDetails {
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.secondBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width:768px) {
+    .secondBox {
+        padding: 10px;
+        width: 60%;
+    }
+}
+
+.boxesFirst {
+    width: 30%;
+}
+
+.paras1 {
+    font-family: Roboto;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.nameHeading {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 22px;
+}
+
+.horizontalLine {
+    background-color: white;
+}
+
+.symbolC {
+    height: 14px;
+    color: #FFFFFF;
+    margin-right: 7px;
+}
+
+.endSection {
+    display: flex;
+}
+
+.vl {
+    border-left: 2px solid #ffffff;
+    height: 40px;
+}
+
+.phoneBox {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .phoneBox {
+        display: flex;
+        align-items: center;
+        width: 280px;
+        background-color: #575757;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+}
+
+.number {
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.inputBoxes {
+    background-color: #575757;
+    border-style: none;
+    outline: none;
+}
+
+.constantDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    padding-top: 5%;
+    width: 60px;
+}
+
+.phoneSection {
+    background-color: #00A6FF;
+    height: 60px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.iconStyle1 {
+    color: #ffffff;
+}
+
+
+.iconSize {}
+
+.iconSize {}
+
+.iconSize {}
+
+.iconSize {}
+
+.iconSize {}
+
+.iconSize {}
+
+.iconSize {}
+
+.iconSize {}
+
+.iconSize {}
+
+.iconSize {}
+
+.iconSize {}
+
+.iconSize {}
+
+.iconSize {}
+
+.iconSize {}
+
+.iconSize {}
+
+.iconSize {}
